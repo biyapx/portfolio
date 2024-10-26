@@ -11,7 +11,7 @@ import { Tooltip } from "@/components/ui/tooltip";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
-
+import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 const BLUR_FADE_DELAY = 0.04;
 
 export default function Page() {
@@ -159,10 +159,16 @@ export default function Page() {
             </Badge>
           </div>
           <div className="flex gap-4 w-full justify-between pr-5">
-          <div className="shrink-0 border h-20 w-1/2 rounded-xl">
-          <h2></h2>
-          </div>
-          <div className="shrink-0 border h-20 w-1/2 rounded-xl"></div>
+            <div className="shrink-0 border h-20 w-1/2 rounded-xl">
+              <div className="h-full flex items-center justify-center">
+                <TextHoverEffect text="UI" />
+              </div>
+            </div>
+            <div className="shrink-0 border h-20 w-1/2 rounded-xl">
+              <div className="h-full flex items-center justify-center">
+                <TextHoverEffect text="LIBRARY" />
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -178,8 +184,8 @@ export default function Page() {
                   My journey of becoming a Software Engineer
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I attended seminars and become a member of tech groups which helped me to gain soft skills and 
-                  skills related to my career.
+                  Throughout my journey, I&apos;ve made it a priority to continually evolve and sharpen my skills. 
+                  Participating in workshops and connecting with tech communities has helped me a lot personally and professionally.
                 </p>
               </div>
             </div>

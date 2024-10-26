@@ -88,7 +88,7 @@ export const DATA = {
       description:
         "Collaborated with designers to create user-friendly interfaces. Leveraged my expertise in React and Javascript to develop the entire frontend of a CRM projects, significantly enhancing productivity.",
     },
-    
+
   ],
   education: [
     {
@@ -137,7 +137,7 @@ export const DATA = {
       ],
       image: "",
       video: "/kitlist.mp4"
-        ,
+      ,
     },
     {
       title: "Tenalink",
@@ -167,7 +167,7 @@ export const DATA = {
           href: "https://biyacraft.vercel.app/blog/tenalink",
           icon: <Icons.globe className="size-3" />,
         },
-      ], 
+      ],
       image: "",
       video: "/tenalink.mp4",
     },
@@ -231,66 +231,76 @@ export const DATA = {
         "",
     },
   ],
-  journey: [
+  "journey": [
     {
-      title: "Sophomore year",
-      dates: "Sep, 2020",
-      location: "Jimma, Ethiopia",
-      description:
-        "Joined Electrical and Computer Engineering department.",
-      image:
-        "",
-      mlh: "",
-      links: [
+      "title": "Beyond Graduation",
+      "dates": "2023 - Present",
+      "location": "Remote & Freelance",
+      "description": "Took my skills to the next level! Mastered Docker & Kubernetes for deployment. Built complex full-stack apps with Next.js 13, server components, and tRPC. Got into testing with Jest and Cypress. Started contributing to open source. Building my SaaS product while freelancing. The learning never stops - currently exploring Rust and WebAssembly! 🚀",
+      "image": "",
+      "links": [
         {
-          title: "Streamer Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "",
-        },
-        {
-          title: "Client Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "",
-        },
-      ],
+          "title": "Latest Work",
+          "icon": "<Icons.globe className='h-4 w-4' />",
+          "href": ""
+        }
+      ]
     },
     {
-      title: "Fresh man Year",
-      dates: "Sep, 2019",
-      location: "Jimma, Ethiopia",
-      description:
-        "Started learning C++ in a class. I had few OOP skill but I started exploring C++",
-      image:
-        "",
-      mlh: "",
-      links: [
+      "title": "Senior Year & Beyond",
+      "dates": "September, 2022",
+      "location": "Jimma University",
+      "description": "The big year! Focused on modern web tech - Next.js, TypeScript, Prisma, and TailwindCSS became my go-to stack. Led development of Tenalink, connecting rural patients with doctors. Learned about ML/AI basics and implemented them in projects. Got into cloud computing with AWS (EC2, S3, Lambda). Started freelancing and building my portfolio. Also mentored juniors in web development - teaching really reinforces learning!",
+      "image": "",
+      "links": [
         {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "",
-        },
-        {
-          title: "Site",
-          icon: <Icons.globe className="h-4 w-4" />,
-          href: "",
-        },
-      ],
+          "title": "Tenalink Project",
+          "icon": "<Icons.github className='h-4 w-4' />",
+          "href": ""
+        }
+      ]
     },
     {
-      title: "Terrible Hacks V",
-      dates: "November 26th, 2016",
-      location: "Waterloo, Ontario",
-      description:
-        "Developed a mock of Windows 11 with interesting notifications and functionality",
-      image:
-        "",
-      links: [
+      "title": "Junior Year Exploration",
+      "dates": "September, 2021",
+      "location": "Jimma University",
+      "description": "This is when I found my passion! Mastered React.js through building tons of projects. Learned Node.js and Express for backend. Got into database design with MongoDB and PostgreSQL. Built a full-stack e-commerce site as semester project. Started learning system design and microservices architecture. The sleepless nights were worth it! 💪",
+      "image": "",
+      "links": [
         {
-          title: "Source",
-          icon: <Icons.github className="h-4 w-4" />,
-          href: "",
-        },
-      ],
+          "title": "E-commerce Project",
+          "icon": "<Icons.globe className='h-4 w-4' />",
+          "href": ""
+        }
+      ]
     },
+    {
+      "title": "Sophomore Year Growth",
+      "dates": "September, 2020",
+      "location": "Jimma University",
+      "description": "Deep-dived into data structures & algorithms with Java. Built a mini compiler and learned about operating systems (Linux became my best friend). Started web dev journey with HTML/CSS/JS basics. Created my first responsive website for our department's tech fest. Also learned Python and built some cool automation scripts for my daily tasks!",
+      "image": "",
+      "links": [
+        {
+          "title": "Tech Fest Site",
+          "icon": "<Icons.github className='h-4 w-4' />",
+          "href": ""
+        }
+      ]
+    },
+    {
+      "title": "Freshman Year Adventures",
+      "dates": "September, 2019",
+      "location": "Jimma University",
+      "description": "Started my Computer Engineering journey! Learned C++ fundamentals, digital logic design, and basic electronics. Built simple circuits with Arduino and wrote my first 'Hello World'. Those assembly language assignments were brutal but taught me how computers really work. Joined the university's robotics club and built a line-following robot!",
+      "image": "",
+      "links": [
+        {
+          "title": "First Projects",
+          "icon": "<Icons.github className='h-4 w-4' />",
+          "href": ""
+        }
+      ]
+    }
   ],
 } as const;
