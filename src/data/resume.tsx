@@ -233,7 +233,7 @@ export const DATA = {
   ],
   "journey": [
     {
-      "title": "Beyond Graduation",
+      "title": "After Graduation",
       "dates": "2023 - Present",
       "location": "Remote & Freelance",
       "description": "Took my skills to the next level! Mastered Docker & Kubernetes for deployment. Built complex full-stack apps with Next.js 13, server components, and tRPC. Got into testing with Jest and Cypress. Started contributing to open source. Building my SaaS product while freelancing. The learning never stops - currently exploring Rust and WebAssembly! 🚀",
@@ -241,49 +241,49 @@ export const DATA = {
       "links": [
         {
           "title": "Latest Work",
-          "icon": "<Icons.globe className='h-4 w-4' />",
+          "icon": "",
           "href": ""
         }
       ]
     },
     {
-      "title": "Senior Year & Beyond",
+      "title": "Senior Year",
       "dates": "September, 2022",
       "location": "Jimma University",
-      "description": "The big year! Focused on modern web tech - Next.js, TypeScript, Prisma, and TailwindCSS became my go-to stack. Led development of Tenalink, connecting rural patients with doctors. Learned about ML/AI basics and implemented them in projects. Got into cloud computing with AWS (EC2, S3, Lambda). Started freelancing and building my portfolio. Also mentored juniors in web development - teaching really reinforces learning!",
+      "description": "The big year! Focused on modern web tech - Next.js, TypeScript, Prisma, and TailwindCSS became my go-to stack. Led development of multiple projects, connecting rural patients with doctors. Learned more about ML/AI and implemented them in projects. Got into cloud computing with AWS (EC2, S3, Lambda). Started freelancing. Also mentored juniors in web development - teaching really reinforces learning!",
       "image": "",
       "links": [
         {
-          "title": "Tenalink Project",
-          "icon": "<Icons.github className='h-4 w-4' />",
+          "title": "Project",
+          "icon": "",
           "href": ""
         }
       ]
     },
     {
-      "title": "Junior Year Exploration",
+      "title": "Junior Year",
       "dates": "September, 2021",
       "location": "Jimma University",
-      "description": "This is when I found my passion! Mastered React.js through building tons of projects. Learned Node.js and Express for backend. Got into database design with MongoDB and PostgreSQL. Built a full-stack e-commerce site as semester project. Started learning system design and microservices architecture. The sleepless nights were worth it! 💪",
+      "description": "The sleepless nights. Mastered React.js through building tons of projects. Learned Node.js and Express for backend. Got into database design with MongoDB and PostgreSQL. Built a full-stack e-commerce site. Started learning system design and microservices architecture.",
       "image": "",
       "links": [
         {
           "title": "E-commerce Project",
-          "icon": "<Icons.globe className='h-4 w-4' />",
+          "icon": "",
           "href": ""
         }
       ]
     },
     {
-      "title": "Sophomore Year Growth",
+      "title": "Sophomore Year",
       "dates": "September, 2020",
       "location": "Jimma University",
       "description": "Deep-dived into data structures & algorithms with Java. Built a mini compiler and learned about operating systems (Linux became my best friend). Started web dev journey with HTML/CSS/JS basics. Created my first responsive website for our department's tech fest. Also learned Python and built some cool automation scripts for my daily tasks!",
       "image": "",
       "links": [
         {
-          "title": "Tech Fest Site",
-          "icon": "<Icons.github className='h-4 w-4' />",
+          "title": "Project",
+          "icon": "",
           "href": ""
         }
       ]
@@ -297,7 +297,7 @@ export const DATA = {
       "links": [
         {
           "title": "First Projects",
-          "icon": "<Icons.github className='h-4 w-4' />",
+          "icon": "",
           "href": ""
         }
       ]
