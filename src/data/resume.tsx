@@ -7,10 +7,8 @@ export const DATA = {
   url: "https://biyacraft.vercel.app",
   location: "Addis Ababa, Ethiopia",
   locationLink: "https://www.google.com/maps/place/addisababa",
-  description:
-    "Software Engineer. I build full stack applications. But frontend has my heart.",
-  summary:
-    "I'm a software engineer with a passion for crafting exceptional user experiences. I'm currently focused on building products with slick design",
+  description: "Software Engineer. I build full stack applications. But frontend has my heart.",
+  summary: "I'm a software engineer with a passion for crafting exceptional user experiences. I'm currently focused on building products with slick design",
   avatarUrl: "/biyaa.jpg",
   skills: [
     "React",
@@ -52,13 +50,13 @@ export const DATA = {
         name: "Youtube",
         url: "https://www.youtube.com/@biyapx",
         icon: Icons.youtube,
-        navbar: true,
+        navbar: false,
       },
       email: {
-        name: "Send Email",
-        url: "#",
+        name: "Send email",
+        url: "mailto:ayalkbettesfahun@gmail.com",
         icon: Icons.email,
-        navbar: false,
+        navbar: true,
       },
     },
   },
@@ -172,24 +170,22 @@ export const DATA = {
       video: "/tenalink.mp4",
     },
     {
-      title: "Dirkosh",
+      title: "SAAS Landing Page",
       href: "",
-      dates: "April 2023 - September 2023",
+      dates: "November 2024",
       active: true,
       description:
-        "A food ordering website that includes products and services available for customers.",
+        "A modern dark theme landing page",
       technologies: [
         "Next.js",
         "Typescript",
-        "PostgreSQL",
-        "Prisma",
         "TailwindCSS",
         "Shadcn UI",
       ],
       links: [
         {
           type: "Website",
-          href: "",
+          href: "https://saas-landing-page-biya.vercel.app/",
           icon: <Icons.globe className="size-3" />,
         },
         {
@@ -199,7 +195,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "",
+      video: "/saas.mp4",
     },
     {
       title: "ChatBot",
@@ -236,29 +232,29 @@ export const DATA = {
       "title": "After Graduation",
       "dates": "2023 - Present",
       "location": "Remote & Freelance",
-      "description": "Took my skills to the next level! Mastered Docker & Kubernetes for deployment. Built complex full-stack apps with Next.js 13, server components, and tRPC. Got into testing with Jest and Cypress. Started contributing to open source. Building my SaaS product while freelancing. The learning never stops - currently exploring Rust and WebAssembly! 🚀",
+      "description": "Started Docker & Kubernetes for deployment. Built complex full-stack apps with Next.js 13, server components, and tRPC. Building my SAAS product now",
       "image": "",
-      "links": [
+      /*"links": [
         {
-          "title": "Latest Work",
+          "title": "",
           "icon": "",
-          "href": ""
+          "href": "",
         }
-      ]
+      ]*/
     },
     {
       "title": "Senior Year",
-      "dates": "September, 2022",
+      "dates": "September, 2023",
       "location": "Jimma University",
-      "description": "The big year! Focused on modern web tech - Next.js, TypeScript, Prisma, and TailwindCSS became my go-to stack. Led development of multiple projects, connecting rural patients with doctors. Learned more about ML/AI and implemented them in projects. Got into cloud computing with AWS (EC2, S3, Lambda). Started freelancing. Also mentored juniors in web development - teaching really reinforces learning!",
+      "description": "The big year! Focused on modern web tech - Next.js, TypeScript, Prisma, and TailwindCSS became my go-to stack. Led development of multiple projects, connecting rural patients with doctors. Learned more about ML/AI and implemented them in projects.",
       "image": "",
-      "links": [
+      /*"links": [
         {
-          "title": "Project",
+          "title": "",
           "icon": "",
-          "href": ""
+          "href": "",
         }
-      ]
+      ]*/
     },
     {
       "title": "Junior Year",
@@ -266,41 +262,41 @@ export const DATA = {
       "location": "Jimma University",
       "description": "The sleepless nights. Mastered React.js through building tons of projects. Learned Node.js and Express for backend. Got into database design with MongoDB and PostgreSQL. Built a full-stack e-commerce site. Started learning system design and microservices architecture.",
       "image": "",
-      "links": [
+      /*"links": [
         {
-          "title": "E-commerce Project",
+          "title": "",
           "icon": "",
-          "href": ""
+          "href": "",
         }
-      ]
+      ]*/
     },
     {
       "title": "Sophomore Year",
       "dates": "September, 2020",
       "location": "Jimma University",
-      "description": "Deep-dived into data structures & algorithms with Java. Built a mini compiler and learned about operating systems (Linux became my best friend). Started web dev journey with HTML/CSS/JS basics. Created my first responsive website for our department's tech fest. Also learned Python and built some cool automation scripts for my daily tasks!",
+      "description": "Dived into data structures & algorithms with Python. Started web dev journey with HTML/CSS/JS basics. Also learned Python and built some cool automation scripts for my daily tasks!",
       "image": "",
-      "links": [
+      /*"links": [
         {
-          "title": "Project",
+          "title": "",
           "icon": "",
-          "href": ""
+          "href": "",
         }
-      ]
+      ]*/
     },
     {
-      "title": "Freshman Year Adventures",
+      "title": "Freshman Year",
       "dates": "September, 2019",
       "location": "Jimma University",
-      "description": "Started my Computer Engineering journey! Learned C++ fundamentals, digital logic design, and basic electronics. Built simple circuits with Arduino and wrote my first 'Hello World'. Those assembly language assignments were brutal but taught me how computers really work. Joined the university's robotics club and built a line-following robot!",
+      "description": "Started my Computer Engineering journey! Learned C++ fundamentals, digital logic design, and basic electronics. Built simple circuits with Arduino and wrote my first 'Hello World'. Those assembly language assignments were brutal but taught me how computers really work. Built multiple projects with Arduino.",
       "image": "",
-      "links": [
+      /*"links": [
         {
-          "title": "First Projects",
+          "title": "",
           "icon": "",
-          "href": ""
+          "href": "",
         }
-      ]
+      ]*/
     }
   ],
 } as const;
