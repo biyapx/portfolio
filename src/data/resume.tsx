@@ -7,8 +7,8 @@ export const DATA = {
   url: "https://biyacraft.vercel.app",
   location: "Addis Ababa, Ethiopia",
   locationLink: "https://www.google.com/maps/place/addisababa",
-  description: "Software Engineer. I build full stack applications. But frontend has my heart.",
-  summary: "I'm a software engineer with a passion for crafting exceptional user experiences. I'm currently focused on building products with slick design",
+  description: "Software Engineer. I build full stack applications.",
+  summary: "I'm a software engineer with a passion for crafting exceptional user experiences. I'm currently focused on building products with slick design and efficient interaction",
   avatarUrl: "/biyaa.jpg",
   skills: [
     "React",
@@ -102,6 +102,14 @@ export const DATA = {
       href: "https://coursera.org",
       degree: "IBM Full Stack Development",
       logoUrl: "/coursera.png",
+      start: "2022",
+      end: "2023",
+    },
+    {
+      school: "Huawei ICT Academy",
+      href: "https://e.huawei.com/en/talent/ict-academy/#/home",
+      degree: "Cloud Services",
+      logoUrl: "/huawei.jpg",
       start: "2022",
       end: "2023",
     },
@@ -232,7 +240,7 @@ export const DATA = {
       "title": "After Graduation",
       "dates": "2023 - Present",
       "location": "Remote & Freelance",
-      "description": "Started Docker & Kubernetes for deployment. Built complex full-stack apps with Next.js 13, server components, and tRPC. Building my SAAS product now",
+      "description": "Built complex full-stack apps with Next.js 13, server components, and tRPC. Building fullstack application for clients",
       "image": "",
       /*"links": [
         {
@@ -246,7 +254,7 @@ export const DATA = {
       "title": "Senior Year",
       "dates": "September, 2023",
       "location": "Jimma University",
-      "description": "The big year! Focused on modern web tech - Next.js, TypeScript, Prisma, and TailwindCSS became my go-to stack. Led development of multiple projects, connecting rural patients with doctors. Learned more about ML/AI and implemented them in projects.",
+      "description": "Focused on modern web tech - Next.js, TypeScript, Prisma, and TailwindCSS became my go-to stack. Led development of multiple projects. Learned more about ML/AI and implemented them in projects.",
       "image": "",
       /*"links": [
         {
