@@ -30,7 +30,7 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://github.com/biyacraft",
+        url: "https://github.com/biyapx",
         icon: Icons.github,
         navbar: true,
       },
@@ -137,7 +137,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/biyacraft/kitlist",
+          href: "https://github.com/biyapx/kitlist",
           icon: <Icons.github className="size-3" />,
         },
       ],
@@ -165,7 +165,7 @@ export const DATA = {
       links: [
         {
           type: "Source",
-          href: "https://github.com/biyacraft/tenalink",
+          href: "https://github.com/biyapx/tenalink",
           icon: <Icons.github className="size-3" />,
         },
         {
