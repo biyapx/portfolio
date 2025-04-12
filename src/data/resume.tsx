@@ -7,7 +7,7 @@ export const DATA = {
   url: "https://biyacraft.vercel.app",
   location: "Addis Ababa, Ethiopia",
   locationLink: "https://www.google.com/maps/place/addisababa",
-  description: "Software Engineer. I build full stack applications.",
+  description: "NEXT.JS Fullstack Dev",
   summary: "I'm a software engineer with a passion for crafting exceptional user experiences. I'm currently focused on building products with slick design and efficient interaction",
   avatarUrl: "/biyaa.jpg",
   skills: [
@@ -15,10 +15,10 @@ export const DATA = {
     "Next.js",
     "Typescript",
     "Node.js",
+    "Postgres",
+    "Figma",
+    "UI/UX",
     "Python",
-    "Docker",
-    "DSA",
-    "C++",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -62,6 +62,30 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Africa To Silicon Valley",
+      href: "https://a2sv.org",
+      badges: [],
+      location: "Remote",
+      title: "A2SV G6 Trainee",
+      logoUrl: "/a2sv.png",
+      start: "Feb 2025",
+      end: "now",
+      description:
+        "Intensive DSA training to improve student's algorithmic skill",
+    },
+    {
+      company: "Tenalink",
+      href: "https://tenalink.com",
+      badges: [],
+      location: "Remote",
+      title: "Software Engineer",
+      logoUrl: "/tenalink.png",
+      start: "Sep 2024",
+      end: "now",
+      description:
+        "Building native apps for women reproductive health",
+    },
     {
       company: "Freelance",
       href: "https://freelancer.com",
@@ -142,7 +166,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/kitlist.mp4"
+      video: "/kit.mp4"
       ,
     },
     {
